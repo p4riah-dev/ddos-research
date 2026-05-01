@@ -18,6 +18,7 @@ def analyze(target)
   sleep(1)
   puts "[+] SYN flood pattern: detected"
   puts "[+] UDP flood pattern: not detected"
+  puts "[+] DNS amplification: not detected"
   puts "[+] HTTP flood pattern: detected"
   puts "[+] ICMP flood pattern: not detected"
   puts "-" * 50
